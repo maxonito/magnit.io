@@ -1,0 +1,180 @@
+@import "fonts"
+@import "colors"
+
+html
+	font-size: 10px
+	font-family: 'regular'
+body
+	margin: 0
+	padding: 0
+//Основные стили 
+
+.header-logo
+	margin-top: 1.3rem
+
+.main
+	margin-bottom: 8rem
+	&-princ
+		width: 90%
+		margin-top: 17rem
+		font-size: 1.6rem
+		font-family: 'regular'
+		&-img
+			position: absolute
+			left: 50%
+			transform: translateX(-60%)
+			top: -6rem
+		a
+			color: $red
+	.arrow
+		position: absolute
+		width: 130%
+		left: -4rem
+		bottom: -4rem
+	&-add
+		width: 100%
+		font-size: 1.6rem
+		color: $black
+		font-family: 'light'
+		
+		&-btn
+			text-align: center
+			text-decoration: none
+			border-radius: 50px
+			display: inline-block
+			font-family: 'light'
+			color: $white
+			font-size: 1rem
+			padding: 1.2rem 3rem
+			background-color: $blue
+			box-shadow: 0px 6px 10px 0px rgba(61, 106, 167, 0.77)
+			transition: all 0.2s
+			&:hover
+				background-color: darken($blue, 10%)
+			.btn-text
+				display: inline-block
+			img
+				display: inline-block
+				margin-left: 1rem
+	&-addition
+		margin-top: 8rem
+		margin-bottom: 3rem
+		width: 70%
+		font-size: 1.2rem
+		font-family: 'light'
+		font-weight: 300
+		color: $grey
+		.red
+			color: red
+		.mail
+			border-bottom: 1px solid $grey
+		a
+			color: #ed1149
+	&-subcaption
+		font-size: 1.8rem
+		color: #000
+		margin-left: 4rem
+	&-steps
+		margin-top: 5rem
+		padding: 2rem 0
+		background-color: #f9f9f9
+		span
+			margin-left: 0.7rem
+			display: inline-block
+			font-size: 1.3rem
+			font-family: 'light'
+		&-img1
+			float: left
+			margin-left: 2rem
+			display: inline-block
+			height: 5rem
+			width: 5rem
+			background:  url(../img/audio-1.png) center center no-repeat
+		&-img2
+			display: inline-block
+			float: left
+			margin-left: 0rem
+			height: 5rem
+			width: 5rem
+			background:  url(../img/audio-2.png) center center no-repeat
+			font-size: 2.4rem
+			padding: 1rem
+			top: 50%
+			text-align: center
+			color:  #ffffff
+			&-text
+				width: 70%
+		&-img3
+			float: left
+			margin-left: 0rem
+			display: inline-block
+			height: 5rem
+			width: 5rem
+			background:  url(../img/audio-3.png) center center no-repeat
+			font-size: 2.4rem
+			padding: 1rem
+			top: 50%
+			text-align: center
+			color:  #ffffff
+		&-img4
+			float: left
+			margin-left: 2rem
+			display: inline-block
+			height: 5rem
+			width: 5rem
+			background:  url(../img/audio-3.png) center center no-repeat
+			font-size: 2.4rem
+			padding: 1rem
+			top: 50%
+			text-align: center
+			color:  #ffffff
+	&-download
+		display: block
+		font-size: 1.4rem
+		color: #f982a0
+		text-align: center
+		text-decoration: underline
+		margin-top: 0.8rem
+	&-btn
+		display: block
+		position: relative
+		margin: auto
+		color: $white
+		font-family: 'regular'
+		font-weight: 400
+		text-align: center
+		font-size: 2rem
+		border: none
+		border-radius: 50px
+		padding: 1.2rem 5rem
+		background-color: $red
+		box-shadow: 0px 6px 9px 0px rgba(237, 17, 73, 0.57)
+		margin-top: 2.5rem
+	&-subtext
+		font-size: 1.4rem
+		font-family: 'light'
+		font-weight: 300
+		text-align: center
+	&-caption
+		color: $black
+		text-align: center
+		font-family: 'bold'
+		font-weight: 700
+		font-size: 2.8rem
+		margin-bottom: 1rem
+	&-thanks
+		margin-top: 3rem
+		text-align: center
+		font-size: 2rem
+		color:  #a9a9a9
+
+.footer
+	text-align: center
+	font-size: 1rem
+	font-family: 'light'
+	font-weight: 300
+	padding: 2rem
+	background-color: #0a0f1b
+	color: #6d6d6d
+	a
+		color: #6d6d6d
