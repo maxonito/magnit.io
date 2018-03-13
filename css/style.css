@@ -9,8 +9,8 @@ body { margin: 0; padding: 0; }
 .header-logo { margin-top: 1.3rem; }
 
 .main { margin-bottom: 8rem; }
-.main-princ { width: 90%; margin-top: 17rem; font-size: 1.6rem; font-family: "light"; font-weight: 300; }
-.main-princ-img { position: absolute; left: 50%; -webkit-transform: translateX(-60%); transform: translateX(-60%); top: -6rem; }
+.main-princ { width: 90%; margin-top: 10rem; font-size: 1.6rem; font-family: "light"; font-weight: 300; }
+.main-princ-img { position: absolute; left: 50%; -webkit-transform: translateX(-60%); transform: translateX(-60%); top: -7rem; }
 .main-princ a { color: #ed1149; }
 .main .arrow { position: absolute; width: 130%; left: -4rem; bottom: -4rem; }
 .main-add { width: 100%; font-size: 1.6rem; color: #262626; font-family: "light"; }
@@ -27,7 +27,7 @@ body { margin: 0; padding: 0; }
 .main-steps span { margin-left: 0.7rem; display: inline-block; font-size: 1.3rem; font-family: "light"; font-weight: 300; color: #c2c2c2; }
 .main-steps-active { color: #262626 !important; }
 .main-steps-img1 { float: left; margin-left: 2rem; display: inline-block; height: 5rem; width: 5rem; background: url(../img/audio-1.png) center center no-repeat; }
-.main-steps-img2 { display: inline-block; float: left; margin-left: 0rem; height: 5rem; width: 5rem; background: url(../img/audio-2.png) center center no-repeat; font-size: 2.4rem; padding: 1rem; top: 50%; text-align: center; color: #ffffff; }
+.main-steps-img2 { display: inline-block; float: left; margin-left: 0rem; height: 5rem; width: 5rem; background: url(../img/audio-1.png) center center no-repeat; font-size: 2.4rem; padding: 1rem; top: 50%; text-align: center; color: #ffffff; }
 .main-steps-img2-text { width: 70%; }
 .main-steps-img3 { float: left; margin-left: 0rem; display: inline-block; height: 5rem; width: 5rem; background: url(../img/audio-3.png) center center no-repeat; font-size: 2.4rem; padding: 1rem; top: 50%; text-align: center; color: #ffffff; }
 .main-steps-img4 { float: left; margin-left: 2rem; display: inline-block; height: 5rem; width: 5rem; background: url(../img/audio-3.png) center center no-repeat; font-size: 2.4rem; padding: 1rem; top: 50%; text-align: center; color: #ffffff; }
